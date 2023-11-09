@@ -1,0 +1,1 @@
+H_and_S_SERVER_DOMAIN = http://localhost:8080
