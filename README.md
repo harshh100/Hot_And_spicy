@@ -27,7 +27,7 @@ To set up the server-side application, follow these steps:
 1. Navigate to the `server` folder.
 2. Run `npm install` to install all the required dependencies.
 3. rename `Dot_env_file_format_for_server.txt` to `.env` and set-up it with your details.
-5. Run `npm start` to start the server.
+5. Run `node app.js` to start the server.
 6. The server will run on [http://localhost:5000](http://localhost:5000) by default.
 
 ### Database
