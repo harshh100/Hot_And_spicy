@@ -50,6 +50,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Authors
 
-- [Your Name]
-
-Feel free to update the README with additional information related to your project.
+- Harsh Patel
