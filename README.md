@@ -42,7 +42,7 @@ This system utilizes MongoDB as the database. Make sure to have MongoDB installe
 
 ## Contributing
 
-We welcome contributions from the community.
+I welcome Your contributions.
 
 ## License
 
