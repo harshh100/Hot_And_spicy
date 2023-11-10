@@ -1,6 +1,6 @@
 # HOT & SPICY 
 
-This is an online food ordering system built using the MERN (MongoDB, Express.js, React, Node.js) stack. The system consists of two main components: the client and the server.
+This is an online food ordering system built using the MERN (MongoDB, Express.js, React, Node.js) stack. The system consists of two main components: the client and the server. jhada
 
 ## Client
 
