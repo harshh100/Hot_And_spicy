@@ -4,7 +4,7 @@ This is an online food ordering system built using the MERN (MongoDB, Express.js
 
 ## Client
 
-The client folder contains the front-end part of the application built using React. It includes the user interface and components for the online food ordering system. kjhgv
+The client folder contains the front-end part of the application built using React. It includes the user interface and components for the online food ordering system.
 
 ### Getting Started
 
