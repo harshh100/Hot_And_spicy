@@ -4,7 +4,7 @@ This is an online food ordering system with otp verification, built using the ME
 
 ## Client
 
-The client folder contains the front-end part of the application built using React. It includes the user interface and components for the online food ordering system.
+The client folder contains the front-end part of the application built using React. It includes the user interface and components for the online food ordering system. kb
 
 ### Getting Started
 
