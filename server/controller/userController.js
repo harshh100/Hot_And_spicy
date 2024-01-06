@@ -103,8 +103,9 @@ const userController = {
     },
     async sendotp(req, res) {
         // const countryCode = 91;
-        // const countryCode = 31;
-        const countryCode = 1;
+        const countryCode = 44;
+        // const countryCode = 1;
+        // const num = 7893932468;
         const { phoneNumber } = req.body;
         // console.log(phoneNumber);
         try {
@@ -117,13 +118,14 @@ const userController = {
             // res.status(200).send(`OTP send successfully! : ${JSON.stringify(otpResponse)}`);
             return res.status(200).send({ msg: `OTP Send To ${phoneNumber}` });
         } catch (error) {
+            console.log(error);
             return res.status(error?.status || 400).send(error?.message || 'Something went wrong !');
         }
     },
     async verifyotp(req, res) {
         // const countryCode = 91;
-        // const countryCode = 31;
-        const countryCode = 1;
+        const countryCode = 44;
+        // const countryCode = 1;
 
         const { phoneNumber, otp } = req.body;
         try {
@@ -147,7 +149,7 @@ const userController = {
         }
     }, async createOrder(req, res) {
         // const { username, cart, TotalPrice, Take_time, ReceiptNo, Ordertime, userPhone } = req.body;
-        console.log(username, cart, TotalPrice, Take_time, ReceiptNo, Ordertime, userPhone);
+        // console.log(username, cart, TotalPrice, Take_time, ReceiptNo, Ordertime, userPhone);
         try {
             const newOrder = new OrderModel({ username, cart, TotalPrice, Take_time, ReceiptNo, Ordertime, userPhone });
             await newOrder.save();

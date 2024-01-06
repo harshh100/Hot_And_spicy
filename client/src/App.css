@@ -689,7 +689,7 @@ svg {
 
 
   div {
-    display: flex;
+    /* display: flex; */
     gap: 3.2rem;
     justify-content: space-between;
   }
