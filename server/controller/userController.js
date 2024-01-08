@@ -145,6 +145,7 @@ const userController = {
             // }
             // res.status(200).send({ msg: "OTP verified successfully!" });
         } catch (error) {
+            console.log(error);
             return res.status(error?.status || 400).send(error?.message || 'Something went wrong!');
         }
     }, async createOrder(req, res) {

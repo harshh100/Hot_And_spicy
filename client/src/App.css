@@ -705,6 +705,19 @@ svg {
 }
 
 
+.payment_mode {
+  display: flex;
+
+  input {
+    width: auto;
+    height: 15px;
+  }
+}
+
+#sp91 {
+  margin-right: -56px;
+}
+
 .final_order button {
   font-family: inherit;
   font-size: 13px;
