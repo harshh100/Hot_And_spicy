@@ -8,7 +8,6 @@
 /server/.env
 
 /server/admin.json
-/server/data.json
 /server/orderdata.json
 /server/t1.json
 
