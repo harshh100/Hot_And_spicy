@@ -1,0 +1,415 @@
+[
+    {
+        "itm": "Maggi",
+        "subitms": [
+            {
+                "SubName": "Masala Maggi",
+                "price": 40,
+                "ingredient": "Maggi Noodles, Maggi Masala, Onion, Tomato, Capsicum",
+                "stock": 20,
+                "rating": 4.5,
+                "review": 25,
+                "featured": 1
+            },
+            {
+                "SubName": "Butter Maggi",
+                "price": 50,
+                "ingredient": "Maggi Noodles, Butter",
+                "stock": 15,
+                "rating": 4.0,
+                "review": 18,
+                "featured": 0
+            },
+            {
+                "SubName": "Cheese Maggi",
+                "price": 60,
+                "ingredient": "Maggi Noodles, Cheese",
+                "stock": 25,
+                "rating": 4.8,
+                "review": 59,
+                "featured": 1
+            },
+            {
+                "SubName": "Veggie Maggi",
+                "price": 45,
+                "ingredient": "Maggi Noodles, Mixed Vegetables",
+                "stock": 18,
+                "rating": 4.2,
+                "review": 42,
+                "featured": 0
+            },
+            {
+                "SubName": "Spicy Maggi",
+                "price": 55,
+                "ingredient": "Maggi Noodles, Spices",
+                "stock": 14,
+                "rating": 4.3,
+                "review": 23,
+                "featured": 0
+            },
+            {
+                "SubName": "Egg Maggi",
+                "price": 65,
+                "ingredient": "Maggi Noodles, Egg",
+                "stock": 12,
+                "rating": 4.6,
+                "review": 12,
+                "featured": 0
+            },
+            {
+                "SubName": "Mushroom Maggi",
+                "price": 70,
+                "ingredient": "Maggi Noodles, Mushrooms",
+                "stock": 20,
+                "rating": 4.4,
+                "review": 25,
+                "featured": 0
+            },
+            {
+                "SubName": "Schezwan Maggi",
+                "price": 60,
+                "ingredient": "Maggi Noodles, Schezwan Sauce",
+                "stock": 22,
+                "rating": 4.5,
+                "review": 24,
+                "featured": 0
+            },
+            {
+                "SubName": "Spinach Maggi",
+                "price": 55,
+                "ingredient": "Maggi Noodles, Spinach",
+                "stock": 16,
+                "rating": 4.1,
+                "review": 32,
+                "featured": 0
+            },
+            {
+                "SubName": "Corn and Cheese Maggi",
+                "price": 70,
+                "ingredient": "Maggi Noodles, Corn, Cheese",
+                "stock": 24,
+                "rating": 4.7,
+                "review": 21,
+                "featured": 0
+            }
+        ]
+    },
+    {
+        "itm": "Toast",
+        "subitms": [
+            {
+                "SubName": "Cheese Chilly Garlic Toast",
+                "price": 90,
+                "ingredient": "Bread, Cheese, Chilly, Garlic",
+                "stock": 18,
+                "rating": 4.2,
+                "review": 10,
+                "featured": 0
+            },
+            {
+                "SubName": "Paneer Toast",
+                "price": 100,
+                "ingredient": "Bread, Paneer",
+                "stock": 12,
+                "rating": 4.6,
+                "review": 9,
+                "featured": 0
+            },
+            {
+                "SubName": "Beans Toast",
+                "price": 80,
+                "ingredient": "Bread, Beans",
+                "stock": 22,
+                "rating": 4.0,
+                "review": 8,
+                "featured": 0
+            },
+            {
+                "SubName": "Garlic Butter Toast",
+                "price": 85,
+                "ingredient": "Bread, Garlic Butter",
+                "stock": 20,
+                "rating": 4.4,
+                "review": 9,
+                "featured": 0
+            },
+            {
+                "SubName": "Pesto Garlic Toast",
+                "price": 95,
+                "ingredient": "Bread, Pesto Sauce, Garlic",
+                "stock": 15,
+                "rating": 4.7,
+                "review": 11,
+                "featured": 0
+            },
+            {
+                "SubName": "Avocado Toast",
+                "price": 110,
+                "ingredient": "Bread, Avocado, Tomatoes",
+                "stock": 10,
+                "rating": 4.8,
+                "review": 12,
+                "featured": 0
+            },
+            {
+                "SubName": "Nutella Banana Toast",
+                "price": 120,
+                "ingredient": "Bread, Nutella, Banana",
+                "stock": 12,
+                "rating": 4.5,
+                "review": 5,
+                "featured": 0
+            },
+            {
+                "SubName": "Cinnamon Sugar Toast",
+                "price": 80,
+                "ingredient": "Bread, Cinnamon, Sugar",
+                "stock": 25,
+                "rating": 4.3,
+                "review": 23,
+                "featured": 0
+            },
+            {
+                "SubName": "Mushroom Garlic Toast",
+                "price": 105,
+                "ingredient": "Bread, Mushrooms, Garlic",
+                "stock": 18,
+                "rating": 4.6,
+                "review": 15,
+                "featured": 0
+            },
+            {
+                "SubName": "Honey Almond Toast",
+                "price": 100,
+                "ingredient": "Bread, Honey, Almonds",
+                "stock": 14,
+                "rating": 4.2,
+                "review": 8,
+                "featured": 0
+            }
+        ]
+    },
+    {
+        "itm": "Bread",
+        "subitms": [
+            {
+                "SubName": "Garlic Herb Bread",
+                "price": 85,
+                "ingredient": "Bread, Garlic, Herbs",
+                "stock": 11,
+                "rating": 4.2,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Rye Bread",
+                "price": 70,
+                "ingredient": "Rye Bread",
+                "stock": 14,
+                "rating": 4.0,
+                "review": 6,
+                "featured": 0
+            },
+            {
+                "SubName": "Cinnamon Raisin Bread",
+                "price": 90,
+                "ingredient": "Bread, Cinnamon, Raisins",
+                "stock": 9,
+                "rating": 4.3,
+                "review": 8,
+                "featured": 0
+            },
+            {
+                "SubName": "Sourdough Bread",
+                "price": 80,
+                "ingredient": "Sourdough Bread",
+                "stock": 12,
+                "rating": 4.1,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Oatmeal Bread",
+                "price": 75,
+                "ingredient": "Oatmeal Bread",
+                "stock": 16,
+                "rating": 4.4,
+                "review": 8,
+                "featured": 0
+            },
+            {
+                "SubName": "Baguette",
+                "price": 95,
+                "ingredient": "Baguette",
+                "stock": 10,
+                "rating": 4.5,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Pumpernickel Bread",
+                "price": 70,
+                "ingredient": "Pumpernickel Bread",
+                "stock": 13,
+                "rating": 4.0,
+                "review": 6,
+                "featured": 0
+            },
+            {
+                "SubName": "Cranberry Sourdough",
+                "price": 85,
+                "ingredient": "Bread, Cranberries, Sourdough",
+                "stock": 11,
+                "rating": 4.3,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Challah Bread",
+                "price": 100,
+                "ingredient": "Challah Bread",
+                "stock": 8,
+                "rating": 4.6,
+                "review": 9,
+                "featured": 0
+            },
+            {
+                "SubName": "Whole Wheat Bread",
+                "price": 75,
+                "ingredient": "Whole Wheat Bread",
+                "stock": 15,
+                "rating": 4.2,
+                "review": 7,
+                "featured": 0
+            }
+        ]
+    },
+    {
+        "itm": "Sandwich",
+        "subitms": [
+            {
+                "SubName": "BBQ Pulled Pork Sandwich",
+                "price": 95,
+                "ingredient": "Bread, Pulled Pork, BBQ Sauce",
+                "stock": 12,
+                "rating": 4.5,
+                "review": 8,
+                "featured": 0
+            },
+            {
+                "SubName": "BLT Sandwich",
+                "price": 85,
+                "ingredient": "Bread, Bacon, Lettuce, Tomato",
+                "stock": 14,
+                "rating": 4.2,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Chicken Caesar Wrap",
+                "price": 90,
+                "ingredient": "Tortilla, Chicken, Caesar Dressing",
+                "stock": 10,
+                "rating": 4.4,
+                "review": 9,
+                "featured": 0
+            },
+            {
+                "SubName": "Tuna Salad Sandwich",
+                "price": 80,
+                "ingredient": "Bread, Tuna Salad, Lettuce",
+                "stock": 15,
+                "rating": 4.1,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Egg Salad Sandwich",
+                "price": 75,
+                "ingredient": "Bread, Egg Salad, Pickles",
+                "stock": 16,
+                "rating": 4.0,
+                "review": 6,
+                "featured": 0
+            },
+            {
+                "SubName": "California Turkey Club",
+                "price": 100,
+                "ingredient": "Bread, Turkey, Avocado, Bacon",
+                "stock": 9,
+                "rating": 4.6,
+                "review": 8,
+                "featured": 0
+            },
+            {
+                "SubName": "Reuben Sandwich",
+                "price": 95,
+                "ingredient": "Bread, Corned Beef, Sauerkraut",
+                "stock": 11,
+                "rating": 4.3,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Vegetable Panini",
+                "price": 85,
+                "ingredient": "Ciabatta, Mixed Vegetables, Pesto",
+                "stock": 13,
+                "rating": 4.2,
+                "review": 7,
+                "featured": 0
+            },
+            {
+                "SubName": "Turkey and Cranberry Wrap",
+                "price": 90,
+                "ingredient": "Tortilla, Turkey, Cranberry Sauce",
+                "stock": 8,
+                "rating": 4.7,
+                "review": 9,
+                "featured": 0
+            },
+            {
+                "SubName": "Club Wrap",
+                "price": 85,
+                "ingredient": "Tortilla, Turkey, Ham, Bacon",
+                "stock": 12,
+                "rating": 4.4,
+                "review": 8,
+                "featured": 0
+            }
+        ]
+    },
+    {
+        "itm": "Beverages",
+        "subitms": [
+            {
+                "SubName": "Cold Coffee",
+                "price": 50,
+                "ingredient": "Coffee, Milk, Ice Cream",
+                "stock": 12,
+                "featured": 0
+            },
+            {
+                "SubName": "Bournvita",
+                "price": 50,
+                "ingredient": "Milk, Bournvita",
+                "stock": 12,
+                "featured": 0
+            },
+            {
+                "SubName": "Espresso Coffee",
+                "price": 50,
+                "ingredient": "Coffee",
+                "stock": 12,
+                "featured": 0
+            },
+            {
+                "SubName": "Hot Bournvita",
+                "price": 50,
+                "ingredient": "Milk, Bournvita",
+                "stock": 12,
+                "featured": 0
+            }
+        ]
+    }
+]
