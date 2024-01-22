@@ -16,7 +16,8 @@ function Protected(props) {
 
         try {
             const decoded = jwt_decode(token);
-            if (!decoded.username) {
+            // console.log(JSON.stringify(decoded));
+            if (decoded.role !== "admin") {
                 navigate('/admin/login');
             }
         } catch (error) {
