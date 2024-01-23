@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import styled from "styled-components";
 import { adminlogin } from "../helper/helper";
 // import { Navigate } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import jwt_decode from 'jwt-decode';
 import Logo from './Img/h_&_s_black.png'
+import { AdminContext } from '../context/AdminContext';
 
 
 
@@ -13,6 +14,8 @@ function Login() {
     const [adminname, setadminname] = useState('');
     const [adminpassword, setadminpassword] = useState('');
     const navigate = useNavigate();
+
+    const { Isadmin, checkAdmin } = useContext(AdminContext);
 
 
     // const handleLogin = async () => {
@@ -23,15 +26,19 @@ function Login() {
     //     }
     // }
 
+    // useEffect(() => {
+    //     const token = localStorage.getItem('token');
+    //     if (token) {
+    //         const decoded = jwt_decode(token);
+    //         // console.log(decoded);
+    //         if (decoded.role === "admin") {
+    //             navigate('/admin/orderdetails');
+    //         }
+    //     }
+    // }, []);
+
     useEffect(() => {
-        const token = localStorage.getItem('token');
-        if (token) {
-            const decoded = jwt_decode(token);
-            // console.log(decoded);
-            if (decoded.role === "admin") {
-                navigate('/admin/orderdetails');
-            }
-        }
+        checkAdmin();
     }, []);
 
     return (

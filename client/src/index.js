@@ -6,17 +6,20 @@ import reportWebVitals from './reportWebVitals';
 import { AppProvider } from './context/Itmcontext';
 import { CartProvider } from './context/cart_context';
 import { OrderProvider } from './context/Order_context';
+import { AdminProvider } from './context/AdminContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-  <CartProvider>
-    <AppProvider>
-      <OrderProvider>
-        <App />
-      </OrderProvider>
-    </AppProvider>
-  </CartProvider>
+  <AdminProvider>
+    <CartProvider>
+      <AppProvider>
+        <OrderProvider>
+          <App />
+        </OrderProvider>
+      </AppProvider>
+    </CartProvider>
+  </AdminProvider>
   // </React.StrictMode>
 );
 
