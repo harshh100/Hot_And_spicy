@@ -24,14 +24,10 @@ export default function Navbar() {
                             <Link to="/" className='fontco'>Home</Link >
                         </li >
                         <li className='navitom'>
-                            <Link to="/about" className='fontco'>AboutUs</Link>
+                            <Link to="/admin/orderdetails">Orders</Link>
                         </li>
                         <li className='navitom'>
                             <img src={Logo} alt="Logo" className='logonav' />
-                        </li>
-
-                        <li className='navitom'>
-                            <Link to="/admin/orderdetails">Orders</Link>
                         </li>
                         <li className='navitom'>
                             <Link to="/menu" className='fontco'>Menu</Link>
