@@ -15,7 +15,7 @@ function Login() {
     const [adminpassword, setadminpassword] = useState('');
     const navigate = useNavigate();
 
-    const { Isadmin, checkAdmin } = useContext(AdminContext);
+    const { setIsadmin, checkAdmin } = useContext(AdminContext);
 
 
     // const handleLogin = async () => {
@@ -61,7 +61,7 @@ function Login() {
                     </div>
                     <center>
                         <div className="con-itm1">
-                            <button type="submit" onClick={() => adminlogin({ username: adminname, password: adminpassword }).then(function () { navigate('/admin/orderdetails') })}>Login</button>
+                            <button type="submit" onClick={() => adminlogin({ username: adminname, password: adminpassword }).then(function () { setIsadmin(true); navigate('/admin/orderdetails') })}>Login</button>
                         </div>
                     </center>
                 </div>
