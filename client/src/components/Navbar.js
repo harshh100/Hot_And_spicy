@@ -12,7 +12,7 @@ export default function Navbar() {
 
     useEffect(() => {
         checkAdmin();
-    }, []);
+    }, [Isadmin]);
 
     return (
         <>
