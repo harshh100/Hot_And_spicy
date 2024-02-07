@@ -1,9 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect } from 'react'
 import Logo from './Img/h_&_s_black.png'
 import { Link } from "react-router-dom";
 import cart_img from './Img/cart.png';
 import { useCartContext } from "../context/cart_context";
-import jwt_decode from 'jwt-decode';
 import { AdminContext } from '../context/AdminContext';
 
 export default function Navbar() {
@@ -13,7 +12,7 @@ export default function Navbar() {
 
     useEffect(() => {
         checkAdmin();
-    }, [Isadmin]);
+    }, []);
 
     return (
         <>
