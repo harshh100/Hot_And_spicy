@@ -11,6 +11,8 @@ axios.defaults.baseURL = process.env.H_and_S_SERVER_DOMAIN;
 
 export async function getallitms() {
     try {
+        console.log("get all itms" + axios.defaults.baseURL)
+
         const { data } = await axios.get('api/getItems')
         return data;
     } catch (error) {

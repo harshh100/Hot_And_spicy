@@ -14,7 +14,7 @@ function Login() {
     const [adminpassword, setadminpassword] = useState('');
     const navigate = useNavigate();
 
-    const { setIsadmin, checkAdmin } = useContext(AdminContext);
+    const { setIsadmin, checkAdmin, Isadmin } = useContext(AdminContext);
 
 
     // const handleLogin = async () => {
@@ -37,8 +37,17 @@ function Login() {
     // }, []);
 
     useEffect(() => {
-        checkAdmin();
-    }, []);
+        const validate = async () => {
+            await checkAdmin();
+            console.log("Isadmin in login: " + Isadmin);
+            if (Isadmin) {
+                navigate('/admin/orderdetails');
+            } else {
+                navigate('/admin/login');
+            }
+        };
+        validate();
+    }, [Isadmin, checkAdmin, navigate]);
 
     return (
         <Wrapper>

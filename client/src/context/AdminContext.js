@@ -1,18 +1,33 @@
 import React, { createContext, useState } from 'react';
 import jwt_decode from 'jwt-decode';
+import axios from "axios"
+
 
 
 const AdminContext = createContext();
 
 const AdminProvider = ({ children }) => {
 
+
     const [Isadmin, setIsadmin] = useState(false);
 
-    const checkAdmin = () => {
+    const checkAdmin = async () => {
         const token = localStorage.getItem('token');
-        const decoded = token ? jwt_decode(token) : { role: 'harsh' };
-        if (decoded.role === 'admin') {
+        console.log(token);
+        const res = await axios.post('http://localhost:8080/api/userauth', {}, {
+            headers: {
+                "Authorization": `Bearer ${token}`
+            }
+        });
+
+
+        if (res.data.authenticationStatus === 'authorized') {
+            console.log("res" + res.data.authenticationStatus);
             setIsadmin(true);
+            return true;
+        } else {
+            setIsadmin(false);
+            return false;
         }
     };
 
