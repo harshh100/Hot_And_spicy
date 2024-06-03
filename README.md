@@ -44,9 +44,20 @@ This system utilizes MongoDB as the database. Make sure to have MongoDB installe
 
 I welcome Your contributions.
 
-## License
+## Screenshots
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+**home**
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/home.png">
+**aboutus**
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/aboutus.png">
+**menu**
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/menu.png">
+**cart**
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/cart.png">
+**admin login**
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/adminlogin.png">
+**order**
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/order.png">
 
 ## Authors
 
