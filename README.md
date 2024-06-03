@@ -47,17 +47,17 @@ I welcome Your contributions.
 ## Screenshots
 
 **home**
-<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/home.png">
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/home.jpeg">
 **aboutus**
-<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/aboutus.png">
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/aboutus.jpeg">
 **menu**
-<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/menu.png">
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/menu.jpeg">
 **cart**
-<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/cart.png">
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/cart.jpeg">
 **admin login**
-<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/adminlogin.png">
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/adminlogin.jpeg">
 **order**
-<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/order.png">
+<img width="1000" alt="image" src="https://github.com/harshh100/Hot_And_spicy/blob/main/order.jpeg">
 
 ## Authors
 
