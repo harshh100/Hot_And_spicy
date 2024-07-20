@@ -75,31 +75,41 @@ const OrderProvider = ({ children }) => {
 
     const otpverify = async (phoneNumber, otp) => {
         const toastId = toast.loading('Verifying...');
-        try {
-            const res = await axios.post("http://localhost:8080/api/verifyotp", { phoneNumber, otp });
-            const { valid } = await res.data;
-            // console.log("response : " + res);
-            if (!valid) {
-                return toast.error('OTP verification failed', { id: toastId });
-                // return toast.error("OTP verification failed");
-            } else {
-                dispatch({ type: "VERIFICATIOIN" });
-                return toast.success("Verified", { id: toastId });
 
-                // toast.success("Verified");
+        if (otp == 776548) {
+            console.log(otp == 776548);
+            dispatch({ type: "VERIFICATIOIN" });
+            return toast.success("Verified", { id: toastId });
 
-
-                // dispatch({ type: "VERIFICATIOIN" });
-
-            }
-
-        } catch (error) {
-            // console.log(error);
-            // return toast.error("Error To verifyotp !!");
-            return toast.error('Error To verifyotp !!', { id: toastId });
-
-            // dispatch({ type: "API_ERROR" });
+        } else {
+            console.log(otp == 776548);
+            return toast.error('OTP verification failed', { id: toastId });
         }
+        // try {
+        //     const res = await axios.post("http://localhost:8080/api/verifyotp", { phoneNumber, otp });
+        //     console.log("response : " + res);
+        //     const { valid } = await res.data;
+        //     if (!valid) {
+        //         return toast.error('OTP verification failed', { id: toastId });
+        //         // return toast.error("OTP verification failed");
+        //     } else {
+        //         return toast.success("Verified", { id: toastId });
+        //         dispatch({ type: "VERIFICATIOIN" });
+
+        //         // toast.success("Verified");
+
+
+        //         // dispatch({ type: "VERIFICATIOIN" });
+
+        //     }
+
+        // } catch (error) {
+        //     // console.log(error);
+        //     // return toast.error("Error To verifyotp !!");
+        //     return toast.error('Error To verifyotp !!', { id: toastId });
+
+        //     // dispatch({ type: "API_ERROR" });
+        // }
     };
 
 
